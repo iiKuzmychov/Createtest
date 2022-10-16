@@ -23,7 +23,7 @@ public abstract class Question<TAnswer> : IQuestion
 
     public Question(Guid guid, TAnswer answer)
     {
-        Guid = guid;
+        Guid   = guid;
         Answer = answer ?? throw new ArgumentNullException(nameof(answer));
     }
 }
