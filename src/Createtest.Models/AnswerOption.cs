@@ -12,8 +12,6 @@ public class AnswerOption
     }
     public Uri? ImageUrl { get; init; }
 
-    public AnswerOption() : this(Guid.NewGuid()) { }
-
     public AnswerOption(Guid guid)
     {
         Guid = guid;
