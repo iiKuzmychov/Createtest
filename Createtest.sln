@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Createtest.Models", "Createtest.Models\Createtest.Models.csproj", "{4A48D7F6-D659-457C-BD24-73F426C9A640}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Createtest.Models", "src\Createtest.Models\Createtest.Models.csproj", "{4A48D7F6-D659-457C-BD24-73F426C9A640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
