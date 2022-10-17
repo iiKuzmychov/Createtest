@@ -1,4 +1,4 @@
-﻿namespace Createtest.Models;
+﻿namespace Createtest.Models.Questions;
 
 public class AnswerOption
 {
