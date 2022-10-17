@@ -7,7 +7,7 @@ public class MultipleAnswersQuestion : Question<ReadOnlyCollection<AnswerOption>
     public ReadOnlyCollection<AnswerOption> Options { get; }
 
     public MultipleAnswersQuestion(Guid guid, IList<AnswerOption> options, IList<AnswerOption> correctAnswer)
-        : base(guid, new ReadOnlyCollection<AnswerOption>(correctAnswer))
+        : base(guid, new(correctAnswer))
     {
         ArgumentNullException.ThrowIfNull(options);
 
