@@ -2,14 +2,14 @@
 
 public class Test
 {
-    private string _name = string.Empty;
+    private string _title = string.Empty;
     private IList<TestVariant> _variants = Array.Empty<TestVariant>();
 
     public Guid Guid { get; }
-    public string Name
+    public string Title
     {
-        get => _name;
-        set => _name = value ?? throw new ArgumentNullException(nameof(value));
+        get => _title;
+        set => _title = value ?? throw new ArgumentNullException(nameof(value));
     }
     public IList<TestVariant> Variants
     {
